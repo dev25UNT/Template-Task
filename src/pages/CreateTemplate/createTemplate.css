@@ -1,0 +1,46 @@
+.tempContainer {
+  /* display: flex;
+  flex-direction: column; */
+  border:1px solid gray;
+  width: 100% !important;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+.tempInput{
+    max-width: 200px;
+}
+.tempInputContainer{
+  display: flex;
+  flex-direction: column;
+}
+.fieldLabel{
+  max-width: 200px;
+}
+.mainField{
+  display: flex;
+  justify-content: space-between;
+}
+.hobbiesField{
+  display: flex;
+  flex-direction: column;
+  max-height: 200px !important;
+  overflow: scroll;
+}
+.hobbiesField>input{
+  margin-top: 10px;
+  max-width: 200px;
+}
+.addButton{
+  all: unset;
+  color:black;
+  font-weight: 500;
+  font-size: 30px;
+  margin-left: 20px;
+}
+.previewButton{
+  margin-left: 10px;
+}
+.danger{
+  color: red;
+}
